@@ -1,0 +1,181 @@
+header nav{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header nav ul{
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+header nav ul li{
+  text-align: center;
+  float: right;
+  line-height: 60px;
+}
+header nav ul li a{
+  min-width: 100px;
+  max-width: 160px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+}
+header nav ul li a:hover,header nav ul li a:visited{
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+body{
+  font: 20px/1.5 "微軟正黑體" ;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+}
+p{
+  font-size: 1.2em;
+}
+section{
+  padding: 150px 100px;
+  text-align: center;
+  margin-bottom: -5%;
+}
+hr{
+  size:5px;
+  align: center;
+  width: 100%;
+}
+
+
+#top-background-box{
+  width: 100%;
+  height: 81.3%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/mainmenu2.jpg) fixed no-repeat ;
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -10;
+}
+#topicon{
+  text-align: center;
+  float: left;
+  color: #f1f1f1;
+  font: italic normal bolder 2em/60px '微軟正黑體';
+}
+#heading{
+  margin-top: 150px;
+  margin-left: -6.5%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+#logo{
+  font-size: 5em;
+  font-weight: 500;
+}
+#tagline{
+  font-size: 18px;
+}
+#motivation{
+  text-align: left;
+  font-size: 22px;
+}
+#machine{
+  float: left;
+}
+#machinetop{
+  font-size: 0.95em;
+  text-align: center;
+}
+#machineimg{
+  max-height: 50%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: auto 5%;
+  float: left;
+}
+#shiauapple{
+  color: rgb(255, 0, 0);
+  font-size: 3em;
+}
+#nlhs{
+  position: relative;
+  top: 10%;
+  left: 70%;
+  float: left;
+  max-width: 30%;
+}
+#ig{
+  color: #A3A3FF;
+}
+
+.content:not(.img){
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: left;
+  height: 45%;
+  padding-top: 5%;
+  padding-left: 2%;
+}
+.img{
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: auto;
+  float: left;
+}
+.machineh2{
+  text-align: left;
+  margin-block-end:0.5em;
+}
+.footer{
+  background: rgba(0, 0, 0, 1);
+  position: relative;
+  top: 8px;
+  left: -8px;
+  width: 105%;
+  height: 100px;
+}
+.footer nav{
+  position: relative;
+  top: 10%;
+  left: 15%;
+  float: left;
+  max-width: 30%;
+}
+.footer ul{
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+.footer li{
+  color: white;
+  font-size: 0.7em;
+}
+.indent p{
+  text-indent: 2.4em;
+}

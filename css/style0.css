@@ -1,0 +1,101 @@
+header nav{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header nav ul{
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+header nav ul li{
+  text-align: center;
+  float: right;
+  line-height: 60px;
+}
+header nav ul li a{
+  width: 100px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+}
+header nav ul li a:hover,header nav ul li a:visited{
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+body{
+  font: 20px/1.5 "微軟正黑體" ;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+section{
+  min-height: 50%;
+
+}
+section:not(#top){
+  padding: 150px 100px;
+  text-align: center;
+}
+hr{
+  size:5px;
+  align: center;
+  width: 95%;
+}
+#top-background-box{
+  width: 100%;
+  height: 30%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(mainmenu2.jpg) center center fixed no-repeat;
+  opacity: 0.3;
+
+}
+#topicon{
+  text-align: center;
+  float: left;
+  color: #f1f1f1;
+  font: italic normal bolder 2em/60px '微軟正黑體';
+}
+#heading{
+  margin-top: 150px;
+  margin-left: -6.5%;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  top: 50%;
+}
+#logo{
+  font-size: 5em;
+  font-weight: 500;
+}
+#tagline{
+  font-size: 18px;
+}
+.h2title{
+  text-align: center;
+}
+.content:not(.img){
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: left;
+  height: 50%;
+}
+.img{
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: auto;
+  float: left;
+}
